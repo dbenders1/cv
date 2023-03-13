@@ -595,10 +595,10 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_stackoverflow}\end
 % Begin
 \begin{longtable}[l]{@{}>{\raggedleft}p{\ecv@leftcolwidth}@{\hspace{\ecv@colsep}}@{\extracolsep{\ecv@colsep}}p{\ecv@rightcolwidth}@{}}
   %\ecv@hrule
-  \ifx\@empty\draweuropasslogo\else
-    % Any better way of achieving the same result?!?
-    \draweuropasslogo&\large\textcolor{curious-blue}{Curriculum vitae} \tabularnewline
-  \fi
+  % \ifx\@empty\draweuropasslogo\else
+  %   % Any better way of achieving the same result?!?
+  %   \draweuropasslogo&\large\textcolor{curious-blue}{Curriculum vitae} \tabularnewline
+  % \fi
   \ifx\@empty\ecvtitle\else
      \ifx\@empty\draweuropasslogo
        & \tabularnewline[-.5em]
