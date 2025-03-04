@@ -621,14 +621,14 @@ $\begin{array}{@{}l}\includegraphics[width=\ecv@iconwidth]{ic_stackoverflow}\end
  \ecvitem{#1}{\Large \textcolor{torea-bay}{#2}}
 }
 
-\newcommand{\ecvworkexperience}[6][20pt]{%
+\newcommand{\ecvworkexperience}[6][10pt]{%
  \ecvitem[#1]{#2}{\begin{Large}\textcolor{torea-bay}{#3}\end{Large}\par\vspace{3pt}
  #4{\par}
  #5{\par\vspace{3pt}}
  #6}
 }
 
-\newcommand{\ecveducation}[6][30pt]{%
+\newcommand{\ecveducation}[6][15pt]{%
  \ecvitem[#1]{#2}{\begin{Large}\textcolor{torea-bay}{#3}\end{Large}
  \textcolor{curious-blue}{\hfill\begin{small}#6\end{small}}\par\vspace{3pt}
  #4{\par\vspace{3pt}}
